@@ -31,6 +31,51 @@ p {
     margin: 10px 0;
 }
 
-img{
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#111;
+    color: #fff;
     width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    padding: 0 30px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: blue 2px solid;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background: url(../assets/images/codebackground.jpg) no-repeat center center/cover;
+    padding: 0 20px;
+}
+
+.content-item {
+    padding: 15px 0;
+}
+
+.about-content p {
+    max-width: 600px;
+    text-align: justify;
 }
