@@ -27,10 +27,13 @@ h1, h2 {
     line-height: 1.2;
 }
 
+h1 {
+    font-weight: bold;
+}
+
 p {
     margin: 10px 0;
 }
-
 
 /* Navbar */
 .navbar {
@@ -78,4 +81,22 @@ p {
 .about-content p {
     max-width: 600px;
     text-align: justify;
+}
+
+.nb-image {
+    border-radius: 50%;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(18, 18, 109);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    opacity: 0.7;
 }
