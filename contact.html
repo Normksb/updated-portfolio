@@ -17,7 +17,7 @@
             </h1>
             <nav>
                 <ul>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="/index.html">About</a></li>
                     <li><a href="/portfolio.html">Portfolio</a></li>
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="/contact.html">Contact</a></li>
@@ -27,27 +27,17 @@
 
     </header>
 
-    <div id="about">
-        <div class="about-content">
-
-        
-        <h1 class="content-item">
-            Norman Bernard
-        </h1>
-
-        <img src="./assets/images/20211203_104329.jpg" alt="Norman Bernard" class="content-item nb-image">
-
-        <h2 class="content-item">
-            Fullstack Web Developer
-        </h2>
-
-        <p class="content-item">
-
-            Fullstack web developer with nearly 20 years of experience in tech support and a variety of support roles within software development-oriented businesses. Recently completed a certificate in Fullstack Web Development with the University of Western Australia.
-
-        </p>
-
-        <a href="/portfolio.html" class="btn">See Portfolio</a>
+    <div id="contact">
+        <div class="contact-content">
+            <form action="#" class="form">
+                <label for="name" class="label">Name</label>
+                <input type="text" class="input" id="name" autocomplete="name" placeholder="Name...">
+                <label for="email" class="label">Email</label>
+                <input type="email" class="input" id="email" autocomplete="name" placeholder="Email address...">
+                <label for="Message" class="label">Message</label>
+                <textarea name="message" class="textarea" id="message" cols="50" rows="20" placeholder="Please enter message here..."></textarea>
+                <button class="submitbtn" type="submit" value="submit">submit</button>
+            </form>
         </div>
     </div>
 
