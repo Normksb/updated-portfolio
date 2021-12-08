@@ -63,6 +63,10 @@ p {
     display: flex;
 }
 
+.navbar h1 {
+    font-weight: normal;
+}
+
 .about-content {
     display: flex;
     flex-direction: column;
@@ -99,4 +103,22 @@ p {
 
 .btn:hover {
     opacity: 0.7;
+}
+
+footer {
+    display: flex;
+    padding: 1.5rem;
+    height: 7.5vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111;
+}
+  
+footer a {
+    font-size: 2.5rem;
+    color: blue;
+}
+  
+footer a:hover {
+    color: #fff;
 }
